@@ -1,0 +1,8 @@
+age = int(input("How old are you? ")) 
+consent = input("Do you have any Consent form(y/n)? ") 
+if age>=18:
+ print(f"{name}, You may go to the party.")
+ elif age<18 and consent=="y" or consent=="Y": 
+print(f"{name}, You may go to the party but be back before midnight.")
+ else: 
+print(f"{name}, You may not go to the party.")
